@@ -37,7 +37,7 @@ export default function Home() {
           secondaryButtonText="Learn More"
         />
       </div>
-      <div id="about" data-section="about">
+      <div id="about" data-section="about" className="scroll-mt-24">
         <CtaAbout
           title="Get to Know Us"
           descriptions={[
@@ -47,12 +47,12 @@ export default function Home() {
           ]}
         />
       </div>
-      <div id="how-to-buy" data-section="how-to-buy">
+      <div id="how-to-buy" data-section="how-to-buy" className="scroll-mt-24">
         <HowToBuy2D
           variant="simple"
         />
       </div>
-      <div id="tokenomics" data-section="tokenomics">
+      <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
         <PatternTokenomics
           title="Our Tokenomics"
           description="Understand our token distribution and the mechanics behind our ecosystem."
@@ -63,7 +63,7 @@ export default function Home() {
           ]}
         />
       </div>
-      <div id="footer" data-section="footer">
+      <div id="footer" data-section="footer" className="scroll-mt-24">
         <FooterBase
           logoSrc="/images/logo.svg"
           logoWidth={100}
